@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "build_args": {
+            "PRODUCT_NAME": "r-base",
+            "PRODUCT_VERSION": "3.5.2",
+            "KEEP_USER": "www-data"
+        },
+        "containers": [
+            {
+                "name": "r-base",
+                "version": "3.5.2",
+                "ports": {
+                    "80": "tcp",
+                    "443": "tcp"
+                },
+                "cpu": 256,
+                "ram": 512
+            }
+        ],
+        "volumes": [
+        ]
+    }
+}
