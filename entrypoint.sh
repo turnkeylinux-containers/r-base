@@ -1,5 +1,5 @@
 MY=(
-    [ROLE]=www
+    [ROLE]=app
     [RUN_AS]=root
 
 )
